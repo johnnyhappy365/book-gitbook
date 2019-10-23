@@ -1,0 +1,35 @@
+{
+  "title": "Gitbook 入门",
+  "author": "Johnnyhappy365",
+  "description": "Gitbook快速上手使用的小册子",
+  "plugins": [
+    "disqus",
+    "theme-comscore",
+    "prism",
+    "-highlight",
+    "copy-code-button",
+    "search-pro",
+    "-search",
+    "-lunr",
+    "-sharing",
+    "donate"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "book-gitbook"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ],
+      "lang": {
+        "shell": "bash"
+      }
+    },
+    "donate": {
+      "wechat": "/images/wechat_donate.png",
+      "alipay": "/images/alipay_donate.png",
+      "button": ""
+    }
+  }
+}

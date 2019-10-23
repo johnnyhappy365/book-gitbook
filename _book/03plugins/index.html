@@ -1,0 +1,339 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>插件 · Gitbook 入门</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Johnnyhappy365">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../04plugins/" />
+    
+    
+    <link rel="prev" href="../01init/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01init/">
+            
+                <a href="../01init/">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../04plugins/">
+            
+                <a href="../04plugins/">
+            
+                    
+                    部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >插件</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x63D2;&#x4EF6;">&#x63D2;&#x4EF6;</h1>
+<p>&#x4EE5;&#x4E0B;&#x4ECB;&#x7ECD;&#x51E0;&#x4E2A;&#x6211;&#x5C1D;&#x8BD5;&#x6216;&#x6B63;&#x5728;&#x4F7F;&#x7528;&#x7684;&#x63D2;&#x4EF6;</p>
+<h2 id="disqus-&#x8BC4;&#x8BBA;&#x63D2;&#x4EF6;">disqus &#x8BC4;&#x8BBA;&#x63D2;&#x4EF6;</h2>
+<p>&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">npm</span> <span class="token function">install</span> gitbook-plugin-disqus -g
+</code></pre>
+<p>&#x4FEE;&#x6539;book.json</p>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+    <span class="token property">&quot;plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;disqus&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;pluginsConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;disqus&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;shortName&quot;</span><span class="token operator">:</span> <span class="token string">&quot;book-gitbook&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="theme-score-&#x4E3B;&#x9898;&#x63D2;&#x4EF6;">theme-score &#x4E3B;&#x9898;&#x63D2;&#x4EF6;</h2>
+<p>&#x9ED8;&#x8BA4;&#x7684;&#x4E3B;&#x9898;&#x662F;&#x9ED1;&#x767D;&#x7684;&#xFF0C;&#x52A0;&#x4E0A;&#x8FD9;&#x4E2A;&#x4E3B;&#x9898;&#x4F1A;&#x597D;&#x770B;&#x4E00;&#x4E9B;&#x3002;book.json&#x4E2D;&#x589E;&#x52A0;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#xFF0C;&#x7136;&#x540E; <code>gitbook install</code> &#x5C31;&#x53EF;&#x4EE5;&#x4E86;</p>
+<pre class="language-"><code class="lang-json"><span class="token property">&quot;plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>theme-comscore&quot;<span class="token punctuation">]</span><span class="token punctuation">,</span>
+</code></pre>
+<p>&#x6267;&#x884C; <code>gitbook install</code> &#x8FDB;&#x884C;&#x63D2;&#x4EF6;&#x5B89;&#x88C5;&#xFF0C;&#x7136;&#x540E;&#x8FD0;&#x884C; <code>gitbook serve</code> &#x542F;&#x52A8;&#x3002;</p>
+<h2 id="&#x6CA1;&#x6709;&#x94F6;&#x5F39;">&#x6CA1;&#x6709;&#x94F6;&#x5F39;</h2>
+<p>disqus&#x5728;&#x56FD;&#x5916;&#x4F7F;&#x7528;&#x6548;&#x679C;&#x975E;&#x5E38;&#x597D;&#xFF0C;&#x56FD;&#x5185;&#x5C31;&#x6CA1;&#x6709;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x7684;&#x63D2;&#x4EF6;&#x4E86;&#x3002;&#x8FD8;&#x6709;&#x4E00;&#x79CD;&#x65B9;&#x6848;&#x662F;&#x628A;&#x8BC4;&#x8BBA;&#x63D0;&#x4EA4;&#x5230;github issue&#x4E0A;&#xFF0C;&#x4F46;&#x8FD9;&#x5BF9;&#x7A0B;&#x5E8F;&#x5458;&#x8FD8;&#x884C;&#x3002;&#x5176;&#x5B83;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x8D77;&#x6765;&#x5C31;&#x4E0D;&#x662F;&#x5F88;&#x53CB;&#x597D;&#x4E86;&#x3002;</p>
+<h2 id="prism-&#x4EE3;&#x7801;&#x6837;&#x5F0F;">prism &#x4EE3;&#x7801;&#x6837;&#x5F0F;</h2>
+<p>prism: &#x4E3A;&#x4EE3;&#x7801;&#x589E;&#x52A0;&#x66F4;&#x597D;&#x770B;&#x7684;&#x6837;&#x5F0F;&#x3002;&#x4F46;&#x9700;&#x8981;&#x628A;&#x9ED8;&#x8BA4;&#x7684;&#x63D2;&#x4EF6;&#x5C4F;&#x853D;&#x6389;&#x3002;</p>
+<pre class="language-"><code class="lang-json"><span class="token property">&quot;plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+  <span class="token string">&quot;prism&quot;</span><span class="token punctuation">,</span>
+  <span class="token string">&quot;-highlight&quot;</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">&quot;pluginsConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;prism&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;css&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&quot;prismjs/themes/prism-solarizedlight.css&quot;</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;lang&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">&quot;shell&quot;</span><span class="token operator">:</span> <span class="token string">&quot;bash&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="copy-code-button-&#x590D;&#x5236;&#x4EE3;&#x7801;">copy-code-button &#x590D;&#x5236;&#x4EE3;&#x7801;</h2>
+<pre class="language-"><code class="lang-json"><span class="token property">&quot;plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+  <span class="token string">&quot;copy-code-button&quot;</span>
+<span class="token punctuation">]</span>
+</code></pre>
+<h2 id="&#x5176;&#x5B83;&#x53C2;&#x8003;">&#x5176;&#x5B83;&#x53C2;&#x8003;</h2>
+<p><a href="http://gitbook.zhangjikai.com/plugins.html" target="_blank">http://gitbook.zhangjikai.com/plugins.html</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../01init/" class="navigation navigation-prev " aria-label="Previous page: 安装">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../04plugins/" class="navigation navigation-next " aria-label="Next page: 部署">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"插件","level":"1.3","depth":1,"next":{"title":"部署","level":"1.4","depth":1,"path":"04plugins/README.md","ref":"04plugins/README.md","articles":[]},"previous":{"title":"安装","level":"1.2","depth":1,"path":"01init/README.md","ref":"01init/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","theme-comscore","prism","-highlight","copy-code-button","search-pro","-search","-lunr","-sharing","donate","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css"],"lang":{"shell":"bash"}},"disqus":{"useIdentifier":false,"shortName":"book-gitbook"},"livereload":{},"search-pro":{},"donate":{"alipay":"/images/alipay_donate.png","alipayText":"支付宝打赏","button":"","title":"","wechat":"/images/wechat_donate.png","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-comscore":{},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Johnnyhappy365","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Gitbook 入门","gitbook":"*","description":"Gitbook快速上手使用的小册子"},"file":{"path":"03plugins/README.md","mtime":"2019-10-23T14:28:54.080Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-23T14:31:36.446Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
